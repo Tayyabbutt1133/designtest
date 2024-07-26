@@ -1,0 +1,36 @@
+@import url('https://fonts.googleapis.com/css2?family=Lusitana:wght@400;700&display=swap');
+
+.logo
+{
+    width: 60px;
+}
+.navlinks ul li a
+{
+  text-decoration: none;
+  color: white;
+  font-family: "Lusitana", serif;
+  font-weight: 400;
+  font-style: normal;
+}
+.navlinks ul li 
+{
+  list-style: none;
+}
+
+.container
+{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.navlinks ul
+{
+    display: flex;
+    gap: 23px;
+}
+.shop-cart
+{
+    display: flex;
+    gap: 22px;
+    cursor: pointer;
+}
